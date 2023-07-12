@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/respaper4.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body h1{
+    font-size: large;
+}
+.style{
+    color: rgba(26, 28, 30, 0.7);
+    font-family:'Times New Roman', Times, serif;
+}
+.butt:hover{
+    transition-duration: 10;
+    border: 0px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(255, 174, 0);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.butt2{
+    border: none;
+    background-color: rgb(255, 0, 111);
+    font-size: 16px;
+}
+.butt3{
+    border-radius: 4px;
+}
+.hh1 h1{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#cv-template{
+       display:none;
+  }
+  .myimg{
+    /*border:1px solid red;*/
+    border-radius:50%;
+    width:200px;
+  }
+  .background
+  {
+    background-color:rgba(180, 241, 241, 0.419);
+  }

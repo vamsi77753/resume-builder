@@ -1,0 +1,109 @@
+*
+{
+    padding: 0.5;
+    margin: 1;
+    box-sizing:border-box;
+    border-style:initial;
+}
+body{
+    background-image: url(../images/bg3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.style
+{
+    color: rgb(166, 174, 179);
+    font-size:larger;
+}
+.menubar{
+    background-color: rgb(130, 200, 177);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    position:relative;
+}
+.menubar ul{
+    list-style: none;
+    color: bisque;
+    display:inline-flex;
+}
+.menubar ul li
+{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.menubar ul li a{
+  text-decoration: none;
+  color: azure;  
+}
+.active,.menubar ul li:hover{
+  background-color: darkslategray;
+  border-radius: 3px;
+}
+.btn{
+    background-color: bisque;
+    display: inline-block;
+    padding: 14px 40px;
+    text-decoration: none;
+    color:aquamarine;
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    transition: 0.5s;
+    
+}
+.s,btn{
+    color: black;
+}
+.content{
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: relative;
+}
+.content h1{
+    font-size: 70px;
+}
+.content p{
+    font-size: 40px;
+    animation-delay: 0.5s;
+}
+.content a{
+    padding: 30px;
+    margin: 30px 20px 30px;
+    font-size: 30px;
+    animation-delay: 1s;
+}
+.btn:hover{
+    border-top-right-radius:30px  ;
+    animation-delay: 1.5;
+}
+.img{
+    width:400px;
+    position:absolute;
+    bottom: 20%;
+    right: 5%;
+    height: 700;
+    animation-delay: 1.5s;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+
+}
+.img.anim{
+    animation-delay: 1.5s;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+    transform: translateY(0px);
+    }
+    
+}
